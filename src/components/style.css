@@ -1,0 +1,76 @@
+.navbar a {
+    color:#fff !important;
+}
+.bg-dark {
+    background-color: #ccc !important;
+}
+.Dashboard-widgets .card-body {
+    padding: 10px;
+}
+.Dashboard-widgets .left-space {
+    align-items: center;
+    text-align: center;
+    display: inline-grid;
+    font-size: 30px;
+}
+.cascading-admin-card {
+    margin: 15px auto;
+}
+.updateButton {
+    float: right;
+    margin: 16px;
+}
+.latency {
+    margin: 10px 25px;
+}
+.left-side-Latency span:nth-child(1){
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6c757d;
+}
+.left-side-Latency span:nth-child(2){
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6c757d;
+}
+.left-side-Latency,.left-side-process {
+    margin: 15px auto;
+}
+
+.left-side-Latency .card-body ,.left-side-process .card-body{
+    padding:5px;
+}
+.Dashboard-widgets .right-space p:first-child{
+    font-size: 15px;
+    font-weight: bold;
+    color:#6c757d;
+}
+.Dashboard-widgets .right-space p:nth-child(2){
+    font-size: 30px;
+}
+.left-side-process p{
+    font-size: 15px;
+    font-weight: bold;
+    color:#6c757d;
+}
+
+.Dashboard-widgets .left-space i.fa-location-arrow{
+    transform: rotate(
+        315deg
+        );
+    color: #7ad839;
+}
+.left-space i.fa-envelope {
+    color:#f98a39;
+}
+.left-space i.fa-envelope {
+    color:#f98a39;
+}
+.left-space i.fa-book {
+    color:#4b84fa;
+}
+.left-space i.fa-user-friends {
+    color:#f74659;
+}
