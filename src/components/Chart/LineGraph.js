@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import HighchartsReact from "highcharts-react-official";
 import Highcharts from "highcharts";
-import { MDBIcon } from "mdbreact";
 
 export default class Highchart extends Component {
   constructor(props) {
@@ -35,9 +34,6 @@ export default class Highchart extends Component {
           },
             categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
         },
-        legend: {
-            enabled: false
-          },
         yAxis:{
             min: 0,
             title: {
@@ -70,7 +66,7 @@ export default class Highchart extends Component {
   }
 
   render() {
-    const { chartOptions, hoverData } = this.state;
+    const { chartOptions } = this.state;
     return (
       <div>
         <HighchartsReact highcharts={Highcharts} options={chartOptions} />

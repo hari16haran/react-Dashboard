@@ -4,8 +4,7 @@ import {
   MDBCardBody,
   MDBIcon,
   MDBRow,
-  MDBCol,
-  MDBCardText,
+  MDBCol
 } from "mdbreact";
 import "./../../../components/style.css";
 import HighChart from "../../Chart/Highchart";

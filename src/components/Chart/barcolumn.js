@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import HighchartsReact from "highcharts-react-official";
 import Highcharts from "highcharts";
-import { MDBIcon } from "mdbreact";
 
 export default class Highchart extends Component {
   constructor(props) {
@@ -92,7 +91,7 @@ export default class Highchart extends Component {
       
         }]
       },
-      hoverData: null,
+     hoverData: null,
     };
   }
 
@@ -109,10 +108,10 @@ export default class Highchart extends Component {
   };
 
   render() {
-    const { chartOptions, hoverData } = this.state;
+    const { chartOptions } = this.state;
     return (
       <div>
-        <HighchartsReact style={{width: "225px"}, {height: "175px"}} highcharts={Highcharts} options={chartOptions} />
+        <HighchartsReact highcharts={Highcharts} options={chartOptions} />
       </div>
     );
   }
